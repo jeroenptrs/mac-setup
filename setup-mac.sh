@@ -25,10 +25,10 @@ killall Dock
 print_footer "OSX preferences set up"
 
 
-# print_header "Creating folders 📂"
-# safe_create_folder $HOME/Projects/Personal
-# safe_create_folder $HOME/Projects/Work
-# print_footer "Folders created"
+print_header "Creating folders 📂"
+safe_create_folder $HOME/Projects/Personal
+safe_create_folder $HOME/Projects/Work
+print_footer "Folders created"
 
 
 print_header "Installing HomeBrew 🍺"
@@ -49,6 +49,11 @@ print_header "Setting up shell 🐚"
 source "$ROOT_DIR/shell/setup-shell.sh"
 setup_shell
 print_footer "Shell set up"
+
+print_header "Setting up warp 🌊"
+source "$ROOT_DIR/warp/setup-warp.sh"
+setup_warp
+print_footer "Warp set up"
 
 # print_header "Syncing VSCode settings ⚙️"
 # source "$ROOT_DIR/vscode/setup-vscode.sh"
