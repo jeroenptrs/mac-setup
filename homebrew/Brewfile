@@ -3,11 +3,20 @@
 ###############################################
 cask "raycast"
 cask "arc"
+cask "warp"
 cask "vlc"
+cask "hiddenbar"
+cask "hazeover"
+cask "rectangle"
+cask "obsidian"
+cask "dropbox"
+cask "nordvpn"
 cask "tunnelblick"
-cask "android-file-transfer"
-cask "logi-options-plus"
+# cask "android-file-transfer"
+# cask "logi-options-plus"
 cask "stats"
+tap "localsend/localsend"
+cask "localsend"
 
 
 ###############################################
@@ -18,22 +27,24 @@ cask "stats"
 cask "docker"
 cask "visual-studio-code"
 cask "fork"
-cask "iterm2"
-brew "starship"
-cask "google-chrome"
+# cask "iterm2"
+# brew "starship"
+# cask "google-chrome"
 
 # Utilities
-cask "provisionql"
-cask "charles"
-cask "http-toolkit"
-cask "minisim"
+# cask "provisionql"
+# cask "charles"
+cask "proxyman"
+# cask "http-toolkit"
+# cask "minisim"
 brew "xcodes"
 cask "kdiff3"
-cask "vnc-viewer"
-cask "microsoft-remote-desktop"
-cask "azure-data-studio"
+# cask "vnc-viewer"
+# cask "microsoft-remote-desktop"
+# cask "azure-data-studio"
 brew "tlrc"
 brew "jq"
+brew "zoxide"
 brew "fzf"
 
 # React-Native
@@ -47,87 +58,89 @@ cask "react-native-debugger"
 brew "scrcpy"
 
 # Infrastructure
-cask "google-cloud-sdk"
-tap "hashicorp/tap"
-brew "hashicorp/tap/terraform"
+# cask "google-cloud-sdk"
+# tap "hashicorp/tap"
+# brew "hashicorp/tap/terraform"
 
 # Python
-brew "pyenv"
-cask "pycharm-ce"
+# brew "pyenv"
+# cask "pycharm-ce"
 
 ###############################################
 # Personal
 ###############################################
 
 cask "spotify"
-cask "keepassxc"
-cask "whatsapp"
-cask "gimp"
+# cask "keepassxc"
+cask "lastpass"
+brew "lastpass-cli"
+# cask "whatsapp"
+# cask "gimp"
 cask "discord"
-brew "onedrive"
-cask "messenger"
+# brew "onedrive"
+# cask "messenger"
 
-tap "homebrew/cask-fonts"
-cask "font-fira-code-nerd-font"
+# tap "homebrew/cask-fonts"
+# cask "font-fira-code-nerd-font"
 
 
-##############################################
-# VSCode plugins
-###############################################
+# ##############################################
+# # VSCode plugins
+# ###############################################
 
-# Background / IDE utilities
-vscode "asciidoctor.asciidoctor-vscode"
-vscode "EditorConfig.EditorConfig"
-vscode "streetsidesoftware.code-spell-checker"
-vscode "naumovs.color-highlight"
-vscode "artdiniz.quitcontrol-vscode"
-vscode "mechatroner.rainbow-csv"
-vscode "ionutvmi.path-autocomplete"
+# # Background / IDE utilities
+# vscode "asciidoctor.asciidoctor-vscode"
+# vscode "EditorConfig.EditorConfig"
+# vscode "streetsidesoftware.code-spell-checker"
+# vscode "naumovs.color-highlight"
+# vscode "artdiniz.quitcontrol-vscode"
+# vscode "mechatroner.rainbow-csv"
+# vscode "ionutvmi.path-autocomplete"
 
-# Frontend development
-vscode "formulahendry.auto-close-tag"
-vscode "nrwl.angular-console"
-vscode "YoavBls.pretty-ts-errors"
-vscode "codeandstuff.package-json-upgrade"
-vscode "dbaeumer.vscode-eslint"
-vscode "firsttris.vscode-jest-runner" # running or debugging a specific test or test-suite
-vscode "Orta.vscode-jest" # running your current test-suite everytime you change it.
+# # Frontend development
+# vscode "formulahendry.auto-close-tag"
+# vscode "nrwl.angular-console"
+# vscode "YoavBls.pretty-ts-errors"
+# vscode "codeandstuff.package-json-upgrade"
+# vscode "dbaeumer.vscode-eslint"
+# vscode "firsttris.vscode-jest-runner" # running or debugging a specific test or test-suite
+# vscode "Orta.vscode-jest" # running your current test-suite everytime you change it.
 
-# Native development
-vscode "mathiasfrohlich.Kotlin"
-vscode "vscjava.vscode-gradle"
+# # Native development
+# vscode "mathiasfrohlich.Kotlin"
+# vscode "vscjava.vscode-gradle"
 
-# Infrastructure
-vscode "hashicorp.terraform"
-vscode "redhat.vscode-yaml"
+# # Infrastructure
+# vscode "hashicorp.terraform"
+# vscode "redhat.vscode-yaml"
 
-# Tools
-vscode "adpyke.codesnap"
-vscode "pomdtr.excalidraw-editor"
-vscode "ctcuff.font-preview"
-vscode "tomoki1207.pdf"
-vscode "jock.svg"
-vscode "george-alisson.html-preview-vscode"
-vscode "eriklynd.json-tools"
-vscode "ryu1kn.partial-diff"
-vscode "rangav.vscode-thunder-client"
-vscode "ms-vsliveshare.vsliveshare"
+# # Tools
+# vscode "adpyke.codesnap"
+# vscode "pomdtr.excalidraw-editor"
+# vscode "ctcuff.font-preview"
+# vscode "tomoki1207.pdf"
+# vscode "jock.svg"
+# vscode "george-alisson.html-preview-vscode"
+# vscode "eriklynd.json-tools"
+# vscode "ryu1kn.partial-diff"
+# vscode "rangav.vscode-thunder-client"
+# vscode "ms-vsliveshare.vsliveshare"
 
-# Copilot
+# # Copilot
 vscode "GitHub.copilot"
 vscode "GitHub.copilot-chat"
 
-# Git
-vscode "waderyan.gitblame"
+# # Git
+# vscode "waderyan.gitblame"
 
-# Markdown
-vscode "yzhang.markdown-all-in-one"
-vscode "bierner.markdown-mermaid"
-vscode "TakumiI.markdowntable"
-vscode "DavidAnson.vscode-markdownlint"
-vscode "yzane.markdown-pdf"
+# # Markdown
+# vscode "yzhang.markdown-all-in-one"
+# vscode "bierner.markdown-mermaid"
+# vscode "TakumiI.markdowntable"
+# vscode "DavidAnson.vscode-markdownlint"
+# vscode "yzane.markdown-pdf"
 
-# Themes
-vscode "zhuangtongfa.material-theme"
-vscode "PKief.material-icon-theme"
-vscode "johnpapa.vscode-peacock"
+# # Themes
+# vscode "zhuangtongfa.material-theme"
+# vscode "PKief.material-icon-theme"
+# vscode "johnpapa.vscode-peacock"

@@ -25,10 +25,10 @@ killall Dock
 print_footer "OSX preferences set up"
 
 
-print_header "Creating folders 📂"
-safe_create_folder $HOME/personal/code
-safe_create_folder $HOME/work/code
-print_footer "Folders created"
+# print_header "Creating folders 📂"
+# safe_create_folder $HOME/Projects/Personal
+# safe_create_folder $HOME/Projects/Work
+# print_footer "Folders created"
 
 
 print_header "Installing HomeBrew 🍺"
@@ -40,20 +40,17 @@ print_header "Downloading HomeBrew apps 📱"
 download_homebrew_apps
 print_footer "HomeBrew apps downloaded"
 
+print_header "Setting up NVM 📦"
+source "$ROOT_DIR/nvm/setup-nvm.sh"
+setup_nvm
+print_footer "NVM set up"
 
 print_header "Setting up shell 🐚"
 source "$ROOT_DIR/shell/setup-shell.sh"
 setup_shell
 print_footer "Shell set up"
 
-
-print_header "Setting up NVM 📦"
-source "$ROOT_DIR/nvm/setup-nvm.sh"
-setup_nvm
-print_footer "NVM set up"
-
-
-print_header "Syncing VSCode settings ⚙️"
-source "$ROOT_DIR/vscode/setup-vscode.sh"
-sync_vscode_settings
-print_footer "VSCode settings synced"
+# print_header "Syncing VSCode settings ⚙️"
+# source "$ROOT_DIR/vscode/setup-vscode.sh"
+# sync_vscode_settings
+# print_footer "VSCode settings synced"

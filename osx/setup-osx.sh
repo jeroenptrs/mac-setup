@@ -49,13 +49,15 @@ setup_dock() {
   # Remove the auto-hiding Dock delay
   defaults write com.apple.dock "autohide-delay" -float "0"
   # Disable recents in dock
-  defaults write com.apple.dock "show-recents" -bool "false"
+  # defaults write com.apple.dock "show-recents" -bool "false"
   # Enable scroll up on a Dock icon to show all Space's opened windows for an app
   defaults write com.apple.dock "scroll-to-open" -bool "true"
   # Scale apps when minifying instead of the default genie effect
   defaults write com.apple.dock "mineffect" -string "scale"
   # Decrease Dock animation speed
   defaults write com.apple.dock expose-animation-duration -float 0.1
+  # Move dock to the right
+  defaults write com.apple.dock orientation right
 }
 
 setup_mission_control() {

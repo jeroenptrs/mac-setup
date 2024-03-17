@@ -4,13 +4,14 @@ SCRIPT_DIR="$(dirname "$0")"
 
 install_homebrew() {
   # https://brew.sh/
-  if test ! $(which brew); then
-    /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-    (echo; echo 'eval "$(/opt/homebrew/bin/brew shellenv)"') >> /Users/tom.bury/.zprofile
-    eval "$(/opt/homebrew/bin/brew shellenv)"
+  which -s brew
+  if [[ $? != 0 ]] ; then
+    /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)";
+    (echo; echo 'eval "$(/opt/homebrew/bin/brew shellenv)"') >> /Users/jeroen/.zprofile;
+    eval "$(/opt/homebrew/bin/brew shellenv)";
   fi
-  brew update
-  brew upgrade
+  brew update;
+  brew upgrade;
 }
 
 download_homebrew_apps() {

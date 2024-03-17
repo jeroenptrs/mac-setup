@@ -4,7 +4,7 @@ SCRIPT_DIR="$(dirname "$0")"
 
 setup_shell() {
   install_oh_my_zsh
-  setup_starship_prompt
+  # setup_starship_prompt
   setup_zshrc
 
   # Set up autocomplete and syntax highlighting plugins
