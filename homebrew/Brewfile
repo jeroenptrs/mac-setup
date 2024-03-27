@@ -90,59 +90,49 @@ cask "discord"
 # # VSCode plugins
 # ###############################################
 
-# # Background / IDE utilities
-# vscode "asciidoctor.asciidoctor-vscode"
-# vscode "EditorConfig.EditorConfig"
-# vscode "streetsidesoftware.code-spell-checker"
-# vscode "naumovs.color-highlight"
-# vscode "artdiniz.quitcontrol-vscode"
-# vscode "mechatroner.rainbow-csv"
-# vscode "ionutvmi.path-autocomplete"
-
-# # Frontend development
-# vscode "formulahendry.auto-close-tag"
-# vscode "nrwl.angular-console"
-# vscode "YoavBls.pretty-ts-errors"
-# vscode "codeandstuff.package-json-upgrade"
-# vscode "dbaeumer.vscode-eslint"
-# vscode "firsttris.vscode-jest-runner" # running or debugging a specific test or test-suite
-# vscode "Orta.vscode-jest" # running your current test-suite everytime you change it.
-
-# # Native development
-# vscode "mathiasfrohlich.Kotlin"
-# vscode "vscjava.vscode-gradle"
-
-# # Infrastructure
-# vscode "hashicorp.terraform"
-# vscode "redhat.vscode-yaml"
-
-# # Tools
-# vscode "adpyke.codesnap"
-# vscode "pomdtr.excalidraw-editor"
-# vscode "ctcuff.font-preview"
-# vscode "tomoki1207.pdf"
-# vscode "jock.svg"
-# vscode "george-alisson.html-preview-vscode"
-# vscode "eriklynd.json-tools"
-# vscode "ryu1kn.partial-diff"
-# vscode "rangav.vscode-thunder-client"
-# vscode "ms-vsliveshare.vsliveshare"
-
-# # Copilot
+vscode "EditorConfig.EditorConfig"
+vscode "streetsidesoftware.code-spell-checker"
+vscode "naumovs.color-highlight"
+vscode "artdiniz.quitcontrol-vscode"
+vscode "nrwl.angular-console"
+vscode "hashicorp.terraform"
+vscode "redhat.vscode-yaml"
+vscode "ctcuff.font-preview"
+vscode "tomoki1207.pdf"
+vscode "jock.svg"
+vscode "rangav.vscode-thunder-client"
 vscode "GitHub.copilot"
 vscode "GitHub.copilot-chat"
-
-# # Git
-# vscode "waderyan.gitblame"
-
-# # Markdown
-# vscode "yzhang.markdown-all-in-one"
-# vscode "bierner.markdown-mermaid"
-# vscode "TakumiI.markdowntable"
-# vscode "DavidAnson.vscode-markdownlint"
-# vscode "yzane.markdown-pdf"
-
-# # Themes
-# vscode "zhuangtongfa.material-theme"
-# vscode "PKief.material-icon-theme"
-# vscode "johnpapa.vscode-peacock"
+vscode "leonn534.dark-minimalist-icons"
+vscode "formulahendry.auto-complete-tag"
+vscode "asciidoctor.asciidoctor-vscode"
+vscode "phplasma.csv-to-table"
+vscode "coenraads.disableligatures"
+vscode "ms-azuretools.vscode-docker"
+vscode "editorconfig.editorconfig"
+vscode "dbaeumer.vscode-eslint"
+vscode "github.vscode-github-actions"
+vscode "eamodio.gitlens"
+vscode "vscjava.vscode-gradle"
+vscode "orta.vscode-jest"
+vscode "firsttris.vscode-jest-runner"
+vscode "vintharas.learn-vim"
+vscode "mathiasfrohlich.kotlin"
+vscode "yzhang.markdown-all-in-one"
+vscode "bierner.markdown-mermaid"
+vscode "takumii.markdowntable"
+vscode "bpruitt-goddard.mermaid-markdown-syntax-highlighting"
+vscode "zhuangtongfa.material-theme"
+vscode "ionutvmi.path-autocomplete"
+vscode "yoavbls.pretty-ts-errors"
+vscode "thinker.sort-json"
+vscode "svelte.svelte-vscode"
+vscode "sswg.swift-lang"
+vscode "bradlc.vscode-tailwindcss"
+vscode "gruntfuggly.todo-tree"
+vscode "orta.vscode-twoslash-queries"
+vscode "styled-components.vscode-styled-components"
+vscode "redhat.vscode-xml"
+vscode "unifiedjs.vscode-mdx"
+vscode "esbenp.prettier-vscode"
+vscode "vscodevim.vim"

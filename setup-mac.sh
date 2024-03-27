@@ -55,7 +55,7 @@ source "$ROOT_DIR/warp/setup-warp.sh"
 setup_warp
 print_footer "Warp set up"
 
-# print_header "Syncing VSCode settings ⚙️"
-# source "$ROOT_DIR/vscode/setup-vscode.sh"
-# sync_vscode_settings
-# print_footer "VSCode settings synced"
+print_header "Syncing VSCode settings ⚙️"
+source "$ROOT_DIR/vscode/setup-vscode.sh"
+sync_vscode_settings
+print_footer "VSCode settings synced"
