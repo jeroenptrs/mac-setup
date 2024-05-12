@@ -63,6 +63,13 @@ export PATH=$PATH:$ANDROID_SDK_ROOT/platform-tools
 eval "$(rbenv init - zsh)"
 
 ###############################################
+# deno 
+###############################################
+
+export DENO_INSTALL="$HOME/.deno"
+export PATH="$DENO_INSTALL/bin:$PATH"
+
+###############################################
 # nvm 
 ###############################################
 
