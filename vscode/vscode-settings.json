@@ -1,10 +1,19 @@
 {
   "zenMode.fullScreen": false,
-  "workbench.sideBar.location": "right",
   "workbench.iconTheme": "dark-minimalist-icons",
   "workbench.colorTheme": "One Dark Pro Darker",
+  "workbench.sideBar.location": "right",
   "workbench.activityBar.location": "top",
   "workbench.layoutControl.enabled": false,
+  "window.customTitleBarVisibility": "never",
+  "window.titleBarStyle": "native",
+  "apc.electron": {
+    "titleBarStyle": "hiddenInset",
+    "trafficLightPosition": {
+      "x": 10,
+      "y": 10
+    }
+  },
   "extensions.ignoreRecommendations": true,
   "editor.formatOnSave": true,
   "editor.codeLensFontFamily": "CommitMono",
@@ -14,7 +23,9 @@
   "eslint.codeActionsOnSave.rules": null,
   "editor.guides.bracketPairs": true,
   "editor.unicodeHighlight.invisibleCharacters": true,
-  "editor.unicodeHighlight.ambiguousCharacters": true,"svg.preview.mode": "svg",
+  "editor.unicodeHighlight.ambiguousCharacters": true,
+  "explorer.openEditors.minVisible": 4,
+  "svg.preview.mode": "svg",
   "editor.stickyScroll.enabled": true,
   "testing.openTesting": "neverOpen",
   "terminal.external.osxExec": "Warp.app",
@@ -23,6 +34,23 @@
   "jest.runMode": "on-demand",
   "jestrunner.codeLens": [],
   "jestrunner.disableCodeLens": true,
+  "redhat.telemetry.enabled": false,
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.formatOnSave": false,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[svg]": {
+    "editor.defaultFormatter": "jock.svg"
+  },
   "[typescript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
@@ -32,7 +60,7 @@
   "[xml]": {
     "editor.formatOnSave": false
   },
-  "[json]": {
-    "editor.formatOnSave": false
+  "[yaml]": {
+    "editor.defaultFormatter": "redhat.vscode-yaml"
   }
 }
