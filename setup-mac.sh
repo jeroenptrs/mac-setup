@@ -24,12 +24,10 @@ killall Finder
 killall Dock
 print_footer "OSX preferences set up"
 
-
 print_header "Creating folders 📂"
 safe_create_folder $HOME/Projects/Personal
 safe_create_folder $HOME/Projects/Work
 print_footer "Folders created"
-
 
 print_header "Installing HomeBrew 🍺"
 source "$ROOT_DIR/homebrew/setup-homebrew.sh"
@@ -50,10 +48,15 @@ source "$ROOT_DIR/shell/setup-shell.sh"
 setup_shell
 print_footer "Shell set up"
 
-print_header "Setting up Mac Apps 🐚"
+print_header "Setting up Mac Apps 🏪"
 source "$ROOT_DIR/mas/setup-apps.sh"
 setup_apps
 print_footer "Mac apps set up"
+
+print_header "Setting up pnpm and global npm packages 📦"
+source "$ROOT_DIR/npm/setup-packages.sh"
+setup_packages
+print_footer "Packages set up"
 
 print_header "Setting up warp 🌊"
 source "$ROOT_DIR/warp/setup-warp.sh"
@@ -65,7 +68,7 @@ source "$ROOT_DIR/vscode/setup-vscode.sh"
 sync_vscode_settings
 print_footer "VSCode settings synced"
 
-print_header "Setting up fonts 🐚"
+print_header "Setting up fonts 📝"
 source "$ROOT_DIR/fonts/setup-fonts.sh"
 setup_fonts
 print_footer "Fonts set up"
