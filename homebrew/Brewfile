@@ -20,6 +20,8 @@ tap "localsend/localsend"
 cask "localsend"
 brew "mas"
 brew "deno"
+cask "devtoys"
+cask "flyctl"
 
 
 ###############################################
