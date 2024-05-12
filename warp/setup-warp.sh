@@ -3,6 +3,8 @@
 SCRIPT_DIR="$(dirname "$0")"
 
 setup_warp() {
+    source $SCRIPT_DIR/../utils.sh
+    safe_create_folder $HOME/.warp/themes
     THEME_DARK_SAKURA="dark sakura"
     copy_theme $THEME_DARK_SAKURA
 }
