@@ -59,3 +59,8 @@ print_header "Syncing VSCode settings ⚙️"
 source "$ROOT_DIR/vscode/setup-vscode.sh"
 sync_vscode_settings
 print_footer "VSCode settings synced"
+
+print_header "Setting up fonts 🐚"
+source "$ROOT_DIR/fonts/setup-fonts.sh"
+setup_fonts
+print_footer "Fonts set up"
