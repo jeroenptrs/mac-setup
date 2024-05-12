@@ -5,46 +5,9 @@
 export ZSH="$HOME/.oh-my-zsh"
 ZSH_THEME="robbyrussell"
 
-plugins=(git zsh-autosuggestions fast-syntax-highlighting zsh-autocomplete)
+# plugins=(git zsh-autosuggestions fast-syntax-highlighting zsh-autocomplete)
+plugins=(git fast-syntax-highlighting)
 source $ZSH/oh-my-zsh.sh
-
-###############################################
-# Aliases
-###############################################
-
-# alias cdp="cd $HOME/personal"
-# alias cdpc="cd $HOME/personal/code"
-
-# alias cdw="cd $HOME/work"
-# alias cdwc="cd $HOME/work/code"
-
-# alias cdm="cd $HOME/work/code/twipe-app-v4"
-
-# alias git-rst="git clean -df && git checkout -- ."
-# alias git-find-tag="git rev-list -n 1"
-# alias gits="git status"
-# alias gitc="git commit -m"
-# alias gitca="git commit -am"
-# alias gitb="git branch"
-# alias gitps="git push"
-# alias gitpsh="git push"
-# alias gitpl="git pull"
-# alias gitpll="git pull"
-# alias gitf="git fetch"
-# alias gita="git add -i"
-# alias gitrba="git rebase --update-refs"
-
-# gitsw() {
-#   if [ "$1" = "-" ]; then
-#     git switch -
-#   elif git show-ref --verify --quiet refs/heads/"$1"; then
-#     git switch "$1"
-#   else
-#     git switch $(git branch | fzf| tr -d '[:space:]')
-#   fi
-# }
-
-# alias pbc-branch='git rev-parse --abbrev-ref HEAD | pbcopy'
 
 ###############################################
 # React Native Android Studio setup https://reactnative-archive-august-2023.netlify.app/docs/next/environment-setup?package-manager=yarn&guide=native&platform=android

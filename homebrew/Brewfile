@@ -21,7 +21,7 @@ cask "localsend"
 brew "mas"
 brew "deno"
 cask "devtoys"
-cask "flyctl"
+brew "flyctl"
 
 
 ###############################################
