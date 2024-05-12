@@ -50,6 +50,11 @@ source "$ROOT_DIR/shell/setup-shell.sh"
 setup_shell
 print_footer "Shell set up"
 
+print_header "Setting up Mac Apps 🐚"
+source "$ROOT_DIR/mas/setup-apps.sh"
+setup_apps
+print_footer "Mac apps set up"
+
 print_header "Setting up warp 🌊"
 source "$ROOT_DIR/warp/setup-warp.sh"
 setup_warp
