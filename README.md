@@ -20,6 +20,8 @@ The script will create backups before overwriting the following files:
 
 Backups are created in `~/.mac-setup-backup`
 
+TODO: https://github.com/AdelaideSky/GoXlr-Macos/releases
+
 ## How to use
 
 ### Using the script

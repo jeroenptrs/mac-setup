@@ -59,6 +59,7 @@ cask "zulu11" # For RN v0.68
 cask "android-studio"
 cask "react-native-debugger"
 brew "scrcpy"
+cask "obs"
 
 # Infrastructure
 # cask "google-cloud-sdk"
