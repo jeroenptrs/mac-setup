@@ -1,5 +1,9 @@
 # mac-setup
 
+```bash
+curl -o- https://raw.githubusercontent.com/jeroenptrs/mac-setup/main/autosetup.sh | bash
+```
+
 Repository to to kickstart a Mac, according to personal preferences focused on React Native and frontend development, including:
 
 - Installation of HomeBrew
