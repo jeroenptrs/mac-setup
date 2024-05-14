@@ -22,7 +22,7 @@ brew "mas"
 brew "deno"
 cask "devtoys"
 brew "flyctl"
-
+cask "duet"
 
 ###############################################
 # Development
