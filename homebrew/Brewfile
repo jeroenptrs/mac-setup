@@ -36,6 +36,8 @@ cask "fork"
 # cask "iterm2"
 # brew "starship"
 # cask "google-chrome"
+tap "oven-sh/bun"
+brew "bun"
 
 # Utilities
 cask "provisionql"
