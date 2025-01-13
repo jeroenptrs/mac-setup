@@ -2,8 +2,8 @@
 # Utilities
 ###############################################
 cask "raycast"
-cask "arc"
-cask "warp"
+# cask "arc"
+# cask "warp"
 cask "vlc"
 cask "hiddenbar"
 # cask "hazeover" # use mas version
@@ -23,6 +23,7 @@ brew "deno"
 cask "devtoys"
 brew "flyctl"
 cask "duet"
+cask "pika"
 
 ###############################################
 # Development
